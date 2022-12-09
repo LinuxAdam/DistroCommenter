@@ -1,6 +1,6 @@
 #!/bin/bash
 PS3='Choose your favorite Distro: '
-Distros=("Debian" "Void" "fedora" "Arch" "Kali" "Quit")
+Distros=("Debian" "Void" "fedora" "Arch" "Kali" "GayDows" "ShitIntosh" "Quit")
 select fav in "${Distros[@]}"; do
     case $fav in
         "Debian")
@@ -22,7 +22,20 @@ select fav in "${Distros[@]}"; do
         "Kali")
             echo "100 percent indian guy"
 	    # optionally call a function or run some code here
+           ;;
+	 "GayDows")
+
+            echo "get the hell outta here"
+	    # optionally call a function or run some code here
+	    exit
             ;;
+	 "ShitIntosh")
+
+            echo "get the hell outta here"
+	    # optionally call a function or run some code here
+	    exit
+            ;;
+
 	"Quit")
 	    echo "User requested exit"
 	    exit
